@@ -30,16 +30,14 @@ def targets = [
   "NUCLEO_F401RE": ["ATMEL", "MCR20A"],
   "NUCLEO_F429ZI": ["ATMEL", "MCR20A", "S2LP"],
   //"NCS36510": ["internal"],
-  "UBLOX_EVK_ODIN_W2": ["ATMEL"],
-  "KW24D": ["internal"],
+  //"UBLOX_EVK_ODIN_W2": ["ATMEL"],
   "KW41Z": ["internal"]
   ]
 
 // Map toolchains to compilers
 def toolchains = [
   ARM: "armcc",
-  GCC_ARM: "arm-none-eabi-gcc",
-  IAR: "IAR-linux"
+  GCC_ARM: "arm-none-eabi-gcc"
   ]
 
 // Supported RF shields
